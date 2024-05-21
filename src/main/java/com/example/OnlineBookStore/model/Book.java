@@ -20,7 +20,8 @@ public class Book {
     private String description;
     private LocalDate year;
     private String language;
-    private Integer paged;
+
+    private Integer price;
     private String cover;
     private String imgAttachFilePath;
 
