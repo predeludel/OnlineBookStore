@@ -21,7 +21,6 @@ public class Book {
     private LocalDate year;
     private String language;
 
-    private Integer price;
     private String cover;
     private String imgAttachFilePath;
 
