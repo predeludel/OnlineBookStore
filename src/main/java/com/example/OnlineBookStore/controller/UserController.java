@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/user")
 @Tag(name = "Пользователи",
         description = "Все методы для работы с пользователями системы")

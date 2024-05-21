@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/category")
 @Tag(name = "Категории книг",
         description = "Все методы для работы с категориями книг магазина")

@@ -14,6 +14,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/favorite_book")
 @Tag(name = "Избранные книги пользователя",
         description = "Все методы для работы с избранными книгами пользователя")

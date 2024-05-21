@@ -15,6 +15,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/basket_book")
 @Tag(name = "Корзины с книгами пользователя",
         description = "Все методы для работы с корзинами книг пользователей")

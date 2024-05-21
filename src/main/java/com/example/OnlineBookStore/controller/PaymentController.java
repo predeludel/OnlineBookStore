@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/payment")
 @Tag(name = "Оплата заказа",
         description = "Все методы для работы с оплатой заказов")

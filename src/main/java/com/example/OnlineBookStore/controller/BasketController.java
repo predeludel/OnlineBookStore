@@ -13,6 +13,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/basket")
 @Tag(name = "Корзина пользователя",
         description = "Все методы для работы с корзинами пользователей")
