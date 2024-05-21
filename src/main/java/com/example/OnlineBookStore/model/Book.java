@@ -20,7 +20,7 @@ public class Book {
     private String description;
     private LocalDate year;
     private String language;
-
+    private String price;
     private String cover;
     private String imgAttachFilePath;
 
