@@ -11,6 +11,17 @@ services:
     ports:
       - "8080:8080"
 
+  client:
+    build: ./client
+    container_name: client_frontend
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./client:/app
+      - ./app/node_modules
+    stdin_open: true
+    tty: true
+
 
   db:
     image: 'postgres:13.1-alpine'
